@@ -1,16 +1,15 @@
 # storage_optimization
-STORAGE OPTIMIZATION IN DISTRIBUTED ENVIRONMENTS USING OPTIMISTIC CONCURRENCY CONTROL
-
-# thomas_write_rule
-**STREAMLINING TRANSACTION COMMIT FOR DISTRIBUTED DATABASES WITH THOMAS'S WRITE RULE**
+**STORAGE OPTIMIZATION IN DISTRIBUTED ENVIRONMENTS USING OPTIMISTIC CONCURRENCY CONTROL**
 * Author: Vipul Reddy
-* Published In : International Journal For Multidisciplinary Research (IJFMR)
-* Publication Date: 08-2023
-* E-ISSN: 2852-2160
-* Impact Factor: 9.24
+* Published In : International Journal on Science and Technology (IJSAT)
+* Publication Date: 06-2024
+* E-ISSN: 2229-7677
+* Impact Factor: 9.88
 * Link:
 
 **Abstract:**\
+This paper addresses performance and storage overhead challenges in database transaction management caused by maintaining multiple data versions under Multi-Version Concurrency Control (MVCC). It examines how the accumulation of record versions and associated garbage collection processes introduce storage overhead and management complexity, particularly in high-concurrency environments. The study emphasizes the trade-offs of MVCC, including version proliferation, cleanup costs, and the impact of complex transaction interactions such as write skew. By integrating Optimistic Concurrency Control, the proposed approach reduces unnecessary version creation and minimizes storage overhead while preserving snapshot isolation and consistency guarantees. The paper highlights the need for efficient version management strategies to enhance scalability, throughput, and resource utilization in high-performance database systems.
+
 This paper addresses performance degradation in database transaction management caused by high abort rates under Basic Timestamp Ordering (BTO). It examines how strict timestamp-based conflict resolution leads to frequent transaction rollbacks, increased retries, and wasted computation in high-contention and long-running transaction environments. The study emphasizes the limitations of BTO, including rigid conflict handling, timestamp management overhead, and the lack of effective deadlock resolution in distributed systems. By incorporating Thomas’s Write Rule, the proposed approach allows obsolete write operations to be safely ignored, thereby reducing unnecessary aborts while preserving serializability. The paper highlights the need for enhanced timestamp-based concurrency control mechanisms to improve scalability, throughput, and efficiency in high-volume database systems.
 
 **Key Contributions:**
