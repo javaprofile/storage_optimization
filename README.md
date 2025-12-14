@@ -10,33 +10,31 @@
 **Abstract:**\
 This paper addresses performance and storage overhead challenges in database transaction management caused by maintaining multiple data versions under Multi-Version Concurrency Control (MVCC). It examines how the accumulation of record versions and associated garbage collection processes introduce storage overhead and management complexity, particularly in high-concurrency environments. The study emphasizes the trade-offs of MVCC, including version proliferation, cleanup costs, and the impact of complex transaction interactions such as write skew. By integrating Optimistic Concurrency Control, the proposed approach reduces unnecessary version creation and minimizes storage overhead while preserving snapshot isolation and consistency guarantees. The paper highlights the need for efficient version management strategies to enhance scalability, throughput, and resource utilization in high-performance database systems.
 
-This paper addresses performance degradation in database transaction management caused by high abort rates under Basic Timestamp Ordering (BTO). It examines how strict timestamp-based conflict resolution leads to frequent transaction rollbacks, increased retries, and wasted computation in high-contention and long-running transaction environments. The study emphasizes the limitations of BTO, including rigid conflict handling, timestamp management overhead, and the lack of effective deadlock resolution in distributed systems. By incorporating Thomas’s Write Rule, the proposed approach allows obsolete write operations to be safely ignored, thereby reducing unnecessary aborts while preserving serializability. The paper highlights the need for enhanced timestamp-based concurrency control mechanisms to improve scalability, throughput, and efficiency in high-volume database systems.
-
 **Key Contributions:**
-* **Abort Rate Mitigation:**\
-Investigated the limitations of Basic Timestamp Ordering that result in frequent transaction aborts under high contention and long-running workloads.
+* **Storage Overhead Mitigation:**\
+Investigated the storage inefficiencies introduced by Multi-Version Concurrency Control due to version proliferation and garbage collection overhead in distributed environments.
 
-* **Timestamp-Based Optimization:**\
-Applied Thomas’s Write Rule to relax strict write conflict handling, allowing obsolete writes to be ignored without violating serializability.
+* **Optimistic Concurrency Integration:**\
+Applied Optimistic Concurrency Control selectively to reduce unnecessary version creation while preserving transactional consistency and isolation guarantees.
   
-* **Experimental Assessment:** \
-  Evaluated the impact of the proposed approach across varying workload intensities, demonstrating reduced aborts, fewer retries, and improved throughput.
+* **Comprehensive Evaluation:** \
+  Conducted a detailed comparative analysis of MVCC and OCC across multiple cluster sizes, demonstrating significant reductions in storage consumption and predictable scalability behavior.
   
-* **Scholarly Leadership:**\
-  Directed the analysis and implementation focused on enhancing scalability and efficiency of timestamp-based concurrency control mechanisms.
+* **Research & Implementation Leadership:**\
+  Directed the design, implementation, and experimental validation of a hybrid concurrency control approach focused on improving storage efficiency and scalability.
 
 **Relevance & Real-World Impact**
-* **Enhanced System Efficiency:**\
-Improved transaction completion rates by minimizing unnecessary rollbacks in timestamp-ordered database systems.
+* **Improved Storage Efficiency:**\
+Reduced disk space usage in distributed database systems by minimizing versioning overhead without compromising transaction correctness.
 
-* **Better Handling of High Contention:**\
-Enabled more resilient concurrency management in environments with heavy write conflicts and long-running transactions.
+* **Scalable Distributed Deployment:**\
+Enabled more storage-efficient scaling of database clusters by adopting OCC in low-contention scenarios while retaining MVCC where strong consistency is required.
 
-* **Overall Performance Gains :** \
-    Reduced wasted computation and execution delays, leading to lower latency and improved system throughput.
+* **System-Level Performance Benefits:** \
+    Lowered garbage collection pressure and metadata management costs, resulting in improved throughput and reduced resource utilization.
   
 * **Academic and Educational Value:** \
-    Provides a strong foundation for further research and teaching in concurrency control, transaction scheduling, and distributed database systems.
+    Provides empirical insights and implementation references for research and teaching in concurrency control, distributed databases, and storage optimization.
 
 **Experimental Results (Summary)**:
 
