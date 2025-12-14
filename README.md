@@ -38,23 +38,23 @@ Enabled more storage-efficient scaling of database clusters by adopting OCC in l
 
 **Experimental Results (Summary)**:
 
-  | Nodes | Basic Timestamp Ordering BTO | Thomas Write Rule TWR   | Reduction (%)   |
-  |-------|------------------------------| ------------------------| ----------------|
-  | 3     |  4                           | 2                       | 50.00           |
-  | 5     |  10                          | 5                       | 50.00           |
-  | 7     |  18                          | 8                       | 55.56           |
-  | 9     |  27                          | 11                      | 59.26           |
-  | 11    |  39                          | 14                      | 64.10           |
+  | Nodes | Multi-Version Concurrency Control Storage | Optimistic Concurrency Control | Reduction (%)   |
+  |-------|-------------------------------------------| -------------------------------| ----------------|
+  | 3     |  3                                        | 1                              | 66.67           |
+  | 5     |  5                                        | 1.5                            | 70.00           |
+  | 7     |  7                                        | 2                              | 71.43           |
+  | 9     |  9                                        | 2.5                            | 72.22           |
+  | 11    |  11                                       | 3                              | 72.73           |
 
 **Citation** \
-STREAMLINING TRANSACTION COMMIT FOR DISTRIBUTED DATABASES WITH THOMAS'S WRITE RULE
+STORAGE OPTIMIZATION IN DISTRIBUTED ENVIRONMENTS USING OPTIMISTIC CONCURRENCY CONTROL
 * Vipul R 
-* International Journal For Multidisciplinary Research 
-* E-ISSN 2852-2160
+* International Journal on Science and Technology 
+* E-ISSN 2229-7677
 * License \
 This research is shared for a academic and research purposes. For commercial use, please contact the author.\
 **Resources** \
-https://www.ijfmr.com/ \
+https://www.ijsat.org/ \
 **Author Contact** \
 **LinkedIn**: http://linkedin.com/in/Please add here | **Email**: please keep email id @gmail.com
 
