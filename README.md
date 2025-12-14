@@ -48,7 +48,7 @@ Enabled more storage-efficient scaling of database clusters by adopting OCC in l
 
 **Citation** \
 STORAGE OPTIMIZATION IN DISTRIBUTED ENVIRONMENTS USING OPTIMISTIC CONCURRENCY CONTROL
-* Vipul R 
+* Vipul Kumar Bondugula
 * International Journal on Science and Technology 
 * E-ISSN 2229-7677
 * License \
