@@ -1,6 +1,6 @@
 # storage_optimization
 **STORAGE OPTIMIZATION IN DISTRIBUTED ENVIRONMENTS USING OPTIMISTIC CONCURRENCY CONTROL**
-* Author: Vipul Reddy
+* Author: Vipul Kumar Bondugula
 * Published In : International Journal on Science and Technology (IJSAT)
 * Publication Date: 06-2024
 * E-ISSN: 2229-7677
@@ -56,7 +56,7 @@ This research is shared for a academic and research purposes. For commercial use
 **Resources** \
 https://www.ijsat.org/ \
 **Author Contact** \
-**LinkedIn**: http://linkedin.com/in/Please add here | **Email**: please keep email id @gmail.com
+**LinkedIn**: https://www.linkedin.com/in/vipul-b-18468a19/ | **Email**: vipulreddy574@gmail.com
 
 
 
