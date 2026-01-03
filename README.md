@@ -1,5 +1,5 @@
 # Storage Optimization
-**STORAGE OPTIMIZATION IN DISTRIBUTED ENVIRONMENTS USING OPTIMISTIC CONCURRENCY CONTROL**
+**Storage Optimization In Distributed Environments Using Optimistic Concurrency Control**
 
 ### Paper Information
 - **Author(s):** Vipul Kumar Bondugula
