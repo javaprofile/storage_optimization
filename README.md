@@ -1,11 +1,13 @@
-# storage_optimization
+# Storage Optimization
 **STORAGE OPTIMIZATION IN DISTRIBUTED ENVIRONMENTS USING OPTIMISTIC CONCURRENCY CONTROL**
-* Author: Vipul Kumar Bondugula
-* Published In : International Journal on Science and Technology (IJSAT)
-* Publication Date: 06-2024
-* E-ISSN: 2229-7677
-* Impact Factor: 9.88
-* Link:
+
+### Paper Information
+- **Author(s):** Vipul Kumar Bondugula
+- **Published In:** International Journal on Science and Technology (IJSAT)
+- **Publication Date:** June 2024
+- **ISSN:** E-ISSN 2229-7677
+- **DOI:**
+- **Impact Factor:** 9.88
 
 **Abstract:**\
 This paper addresses performance and storage overhead challenges in database transaction management caused by maintaining multiple data versions under Multi-Version Concurrency Control (MVCC). It examines how the accumulation of record versions and associated garbage collection processes introduce storage overhead and management complexity, particularly in high-concurrency environments. The study emphasizes the trade-offs of MVCC, including version proliferation, cleanup costs, and the impact of complex transaction interactions such as write skew. By integrating Optimistic Concurrency Control, the proposed approach reduces unnecessary version creation and minimizes storage overhead while preserving snapshot isolation and consistency guarantees. The paper highlights the need for efficient version management strategies to enhance scalability, throughput, and resource utilization in high-performance database systems.
